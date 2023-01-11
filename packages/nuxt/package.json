@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0",
+    "@pinia/size-check": "workspace:^0.0.0",
     "pinia": ">=2.0.27"
   },
   "devDependencies": {
