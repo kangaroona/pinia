@@ -74,6 +74,7 @@
   },
   "dependencies": {
     "@vue/devtools-api": "^6.4.5",
+    "axios": "^1.2.2",
     "vue-demi": "*"
   },
   "peerDependencies": {

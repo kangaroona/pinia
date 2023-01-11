@@ -64,6 +64,7 @@ const packageBuilds = Object.keys(outputConfigs)
 const packageConfigs = packageBuilds.map((format) =>
   createConfig(format, outputConfigs[format])
 )
+console.log('🚀 ~ file: rollup.config.js:67 ~ packageConfigs', packageConfigs)
 
 // only add the production ready if we are bundling the options
 packageBuilds.forEach((buildName) => {
